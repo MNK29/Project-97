@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Filterpics</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    </head>
+    <body background="Background.png">
+        <center>
+            <section id="margin">
+                <img src="Filterpic logo.png" id="logo">
+                <label id="title">Filterpics<br><label></label></label>
+            </section>
+            <br><br><br><br><br><br>
+        </center>
+        <div class="div">
+            <label class="text">Filter colur : </label>
+            <input id="filter_colour" placeholder="Enter a colour">
+            <span>
+                <button id="filter" onclick="filter_tint()">Apply Filter</button>
+            </span>
+            <hr>
+            <img src="Specs1.jpeg" class="img-circle Img" onclick="spec1()">
+            <img src="Specs2.jpg" class="img-circle Img" onclick="spec2()">
+            <img src="Specs3.jpg" class="img-circle Img" onclick="spec3()">
+            <img src="Specs4.png" class="img-circle Img" onclick="spec4()">
+            <img src="Specs5.png" class="img-circle Img" onclick="spec5()">
+            <hr>
+            <img src="Mustache1.png" class="img-circle Img" onclick="must1()">
+            <img src="Mustache2.png" class="img-circle Img" onclick="must2()">
+            <img src="Mustache3.png" class="img-circle Img" onclick="must3()">
+            <img src="Mustache4.png" class="img-circle Img" onclick="must4()">
+            <img src="Mustache5.png" class="img-circle Img" onclick="must5()">
+            <hr>
+            <button id="snap" class="btn" onclick="take_snapshot()">Take Snapshot</button>
+        </div>
+    <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+
+#title{
+    font-size: 60px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: lighter;
+    color: rgb(139, 197, 22);
+}
+
+#margin{
+    margin-top: 1.5%;
+    background-color: rgb(63, 66, 66);
+    padding: 15px;
+    width: fit-content;
+    height: 130px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px aqua;
+}
+
+#label{
+    font-size: 25px;
+    color: cornsilk;
+    margin-right: 15px;
+}
+
+#choose_filter{
+    font-size: 20px;
+    background-color: darkcyan;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 0px;
+}
+
+#down{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#dropdown{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: darkcyan;
+    color: azure;
+    width: 150px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.filters{
+    background-color: darkcyan;
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.filters:hover{
+    background-color: cornsilk !important;
+    color: darkcyan;
+}
+
+canvas{
+    background-color: black;
+    border-radius: 50px;
+    box-shadow: 20px 20px 40px black;
+}
+
+.Img{
+    width: 70px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.Img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.div{
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 350px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.text{
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#filter_colour{
+    border-radius: 5px;
+    margin-left: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+
+#filter{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightcyan;
+    border-width: 0px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkcyan;
+}
+
+#filter:hover{
+    background-color: darkcyan;
+    color: lightcyan;
+}
+
+#snap{
+    font-size: 20px;
+    background-color: lightgreen;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+#snap:hover{
+    background-color: darkgreen;
+    color: lightgreen;
+}
